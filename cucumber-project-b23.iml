@@ -94,5 +94,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20200713.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-configuration:commons-configuration:1.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.32" level="project" />
   </component>
 </module>

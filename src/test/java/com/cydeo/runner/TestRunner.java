@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target"  // fancy report
         } ,
         dryRun = false
-                   , tags = "@homework"
+                   , tags ="not @ui"    //"@smoke or @salad"
 )
 public class TestRunner {
 }

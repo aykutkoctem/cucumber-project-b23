@@ -29,7 +29,7 @@ public class LibraryLoginStepDefs {
     @Then("user should be at dashboard page")
     public void userShouldBeAtDashboardPage() {
 
-        BrowserUtil.waitFor(1);
+        BrowserUtil.waitFor(3);
         // check the title is now Library after logging in
         assertEquals("Library", Driver.getDriver().getTitle() ) ;
     }

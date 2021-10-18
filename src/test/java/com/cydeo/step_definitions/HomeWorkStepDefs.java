@@ -62,9 +62,13 @@ public class HomeWorkStepDefs {
     }
 
     @Then("selecting blow product and quantity should show correct total and discount")
-    public void selectingBlowProductAndQuantityShouldShowCorrectTotalAndDiscount() {
+    public void selectingBlowProductAndQuantityShouldShowCorrectTotalAndDiscount(List<Map<String, String>> productsTable) {
 
+        System.out.println("productsTable = " + productsTable);
+        WOrderPage wOrderPage=new WOrderPage();
 
+        System.out.println("wOrderPage.getAllProductOptionFromList() = " + wOrderPage.getAllProductOptionFromList());
+        System.out.println("wOrderPage.getUnitPriceAndProducts() = " + wOrderPage.getUnitPriceAndProducts());
     }
 }
 

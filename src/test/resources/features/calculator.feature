@@ -15,7 +15,7 @@ Feature: Calculator feature
     When I add 2 with 2
     Then I should get result 4 displayed
 
-  @smoke
+  @smoke @salad
   Scenario: Add 2 numbers another example
     Given calculator app is open
     When I add 5 with 4
